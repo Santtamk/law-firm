@@ -1,0 +1,39 @@
+.introduction {
+    background-color: rgba(255, 255, 255,0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+h1{
+    text-align: left;
+    font-weight: 600;
+    font-size: 3.375rem;
+    margin-right: 5rem;
+}
+
+.line {
+    border: 1px solid #6A6A6A;
+    width: 1px;
+    height: 100px; 
+    transform: rotate(0deg); 
+    transform-origin: 0% 0%; 
+
+}
+
+.introduction div:last-child {
+    /* flex-grow: 1; */
+    max-width: 475px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    /* background-color: green; */
+}
+

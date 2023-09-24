@@ -1,5 +1,6 @@
 import './App.css';
 import HeroSection from './Components/HeroSection/HeroSection';
+import Introduction from './Components/Introduction/Introduction';
 import Navbar from './Components/NavBar/Navbar';
 
 function App() {
@@ -7,8 +8,9 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <Introduction />
+
     </>
-    // <Introduction />
     // <WhyChooseUs />
     // <AreaOfPractice />
     // <HappyClients />

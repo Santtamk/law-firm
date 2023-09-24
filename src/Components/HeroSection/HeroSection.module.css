@@ -1,6 +1,6 @@
 .heroSection {
     display: flex;
-    padding:0.5rem 9rem;
+    padding:0.5rem 8rem 8rem 8rem;
     background-color: var(--color-black);
     color: var(--color-white);
     align-items: center;
@@ -61,20 +61,24 @@
     background-color: rgba(255, 255, 255,0.1);
 }
 
-.form input::before {
+ /* .form input::placeholder {
     color: var(--color-white);
-    width: 330px;
-    height: 20px;
-    padding: 10px 5px;
     float: left;   
     border: 0;
     border-radius: 45px;
     border-top-style: none;
-    background-color: transparent;
-    font-weight: 500;
-    background-color: rgba(255, 255, 255,0.1);
-    background-image: url(../../assets/mailbox/Hicon/Bold/Message\ 35.png);
-}
+    font-weight: 500; */
+    /* content: '\00a0'; */
+    /* background-color: rgba(255, 255, 255,0.1);
+    background-image: url('../../assets/mailbox/Hicon/Bold/Message\ 35.png');
+    background-size: 10px;
+    background-position: left center; /* Adjust the icon's position */
+    /* background-repeat: no-repeat; */
+    /* width: 10px;
+    height: 10px;
+    padding: 10px 5px;
+    position: absolute; 
+}  */
 
 .form button {
     background: var(--color-primary);

@@ -14,7 +14,7 @@ const HeroSection = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit blandit, curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget, hac massa gravida arcu interdum proin curae.</p>
 
             <div className={styles.form}>
-                <input type="email" id="Email" name="Email" placeholder='Enter your email address'></input>
+                <input type="email" id="Email" name="Email"></input>
                 <button>Let’s Talk</button>
             </div>
         </div>
