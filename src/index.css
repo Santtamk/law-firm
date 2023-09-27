@@ -16,6 +16,7 @@ code {
   --color-primary: #E3B748;
   --color-black: #121212;
   --color-white: #fff;
-  /* --color-off: rgba(255, 255, 255,0.1); */
+  --color-off: #202020;
+  --color-text:#6A6A6A;
 }
 
