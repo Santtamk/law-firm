@@ -7,6 +7,8 @@ import WhyUs from './Components/WhyUs/WhyUs';
 import HappyClients from './Components/HappyClients/HappyClients'
 import { Team } from './Components/Team/Team';
 import Faq from './Components/FAQ/Faq';
+import Newsletter from './Components/Newsletter/Newsletter';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -19,10 +21,9 @@ function App() {
       <HappyClients />
       <Team />
       <Faq />
-
+      <Newsletter />
+      <Footer />
     </>
-    // <Newsletter />
-    // <Footer />
   );
 }
 

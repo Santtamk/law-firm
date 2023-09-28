@@ -34,3 +34,24 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+.social {
+    display: flex;
+    gap: 7px;
+   align-content: center;
+   justify-content: center;
+   padding-top: 1rem;
+
+}
+
+.footerbar {
+    display: flex;
+    flex-direction: row;
+    padding:3.3rem 0;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    gap: 1rem;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+}
